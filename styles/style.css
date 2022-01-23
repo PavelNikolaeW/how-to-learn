@@ -231,12 +231,10 @@
 }
 
 .kaufman__triangle {
-  width:877px;
-  height: 877px;
+  width: 877px;
   position: absolute;
   right: -210px;
-  bottom: -62px;
-  z-index: -0;
+  bottom: -185px;
 }
 
 .footer {
