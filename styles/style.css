@@ -1,11 +1,18 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
+.header__title,
+.two-columns__brief,
+.feynman__title,
+.section-title,
+.section-subtitle,
+.table__heading,
+.footer__column-heading,
+.feynman__subtitle,
+.table__text,
+.section-subtitle,
+.section-title,
+.header__subtitile,
+.two-columns__paragraph,
+.footer__column-links,
+.table {
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -28,9 +35,6 @@ ul {
     position: absolute;
     top: 30px;
     left: 64px;
-}
-
-.logo__img {
     width: 183px;
     height: 32px;
 }
@@ -74,12 +78,13 @@ ul {
     width: 765px;
     height: 608px;
     position: absolute;
+    object-fit: contain;
     right: 0;
     bottom: 0;
     z-index: 1;
 }
 
-.header__square_pic {
+.header__square-pic {
     position: absolute;
     top: 65px;
     right: 0;
@@ -120,7 +125,6 @@ ul {
 }
 
 .two-columns__paragraph:last-child {
-    margin: 0;
     padding: 0;
 }
 
@@ -171,7 +175,7 @@ ul {
     z-index: 2;
 }
 
-.table__cell>p:nth-child(3) {
+.table__cell>:nth-child(3) {
     padding-top: 20px;
 }
 
@@ -185,10 +189,6 @@ ul {
 .table__text {
     line-height: 1.2;
     font-size: 18px;
-}
-
-.quote {
-    margin-top: 20px;
 }
 
 .feynman {
@@ -258,7 +258,7 @@ ul {
 }
 
 .table_theme-dar {
-    color: #fff
+    color: #fff;
 }
 
 .kaufman__triangle {
@@ -267,7 +267,6 @@ ul {
     right: -210px;
     top: 0;
     z-index: -1;
-    background-image: url('./images/logo_place_footer.svg');
 }
 
 .footer {
