@@ -246,7 +246,7 @@
         margin-right: 0;
     }
     
-    .section-title__theme_dark {
+    .section-title_theme_dark {
         color: #fff;
     }
     
@@ -263,6 +263,7 @@
         width: 877px;
         height: 877px;
         position: absolute;
+        background-size: contain;
         right: -210px;
         top: 0;
         z-index: -1;
