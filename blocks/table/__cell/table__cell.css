@@ -1,0 +1,12 @@
+.table__cell {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 80px;
+    z-index: 2;
+}
+
+.table__cell>:nth-child(3) {
+    padding-top: 20px;
+}
