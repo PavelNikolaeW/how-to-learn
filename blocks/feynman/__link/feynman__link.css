@@ -2,8 +2,13 @@
     line-height: 51px;
     font-size: 36px;
     position: absolute;
-    bottom: 50%;
+    top: 50%;
     right: 48px;
     color: var(--custom-blue, blue);
     text-decoration: none;
+}
+
+.feynman__link:hover {
+    opacity: 0.5;
+    animation: opacity 0.5s linear;
 }

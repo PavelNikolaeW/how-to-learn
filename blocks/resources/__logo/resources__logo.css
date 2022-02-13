@@ -1,7 +1,11 @@
 .resources__logo {
     display: flex;
     justify-content: center;
-    list-style: none;
     width: 270px;
     height: 38px;
+}
+
+.resources__logo:hover {
+    opacity: 0.5;
+    animation: opacity 0.5s linear;
 }

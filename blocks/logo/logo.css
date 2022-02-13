@@ -1,1 +1,6 @@
-.logo {}
+.logo:hover {
+    width: 183px;
+    height: 32px;
+    opacity: 0.5;
+    animation: opacity 0.5s linear;
+}
