@@ -8,5 +8,5 @@
 
 .khan__buy-link:hover {
     opacity: 0.5;
-    animation: opacity 0.5s linear;
+    transition: 0.1s;
 }
